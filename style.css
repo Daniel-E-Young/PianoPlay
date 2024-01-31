@@ -14,5 +14,7 @@ body{
     background: #fcf4f2;
 }
 .wrapper{
+    width: 780px;
+    border-radius: 20px;
     
 }
