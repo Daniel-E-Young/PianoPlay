@@ -10,5 +10,6 @@ body{
     align-items: center;
     justify-content: center;
     min-height: 101vh;
+    padding: 0 10px;
     
 }
