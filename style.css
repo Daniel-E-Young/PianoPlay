@@ -20,5 +20,6 @@ body{
     background: #e0da87;
 }
 .wrapper header{
-    
+    color: #fcf4f2;
+    display: flex;
 }
