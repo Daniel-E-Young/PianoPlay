@@ -32,3 +32,6 @@ header .column{
     display: flex;
     align-items: center;
 }
+header .column span{
+    
+}
