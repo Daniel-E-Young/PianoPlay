@@ -33,5 +33,6 @@ header .column{
     align-items: center;
 }
 header .column span{
-    
+    font-weight: 500;
+    margin-right: 15px;
 }
