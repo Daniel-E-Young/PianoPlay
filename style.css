@@ -39,5 +39,5 @@ header .column span{
 }
 .volume-slider span{
     outline: none;
-    
+    accent-color: #fff;
 }
