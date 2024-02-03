@@ -43,5 +43,6 @@ header .column span{
 }
 .keys-checkbox input{
     width: 80px;
+    height: 40px;
     
 }
