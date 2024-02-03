@@ -51,3 +51,15 @@ header .column span{
     border-radius: 30px;
     background: #a2a2a2;
 }
+.keys-checkbox input::before{
+    content: "";
+    height: 30px;
+    width: 30px;
+    top: 50%;
+    left: 5%;
+    border-radius: inherit;
+    position: absolute;
+    background: #8c8c8c;
+    transform: translateY(-50%);
+    transition: all 0.3s ease;
+}
