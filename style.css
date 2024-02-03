@@ -38,5 +38,6 @@ header .column span{
     font-size: 1.19rem;
 }
 .volume-slider span{
+    outline: none;
     
 }
