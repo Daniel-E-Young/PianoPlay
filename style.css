@@ -42,5 +42,6 @@ header .column span{
     accent-color: #fff;
 }
 .keys-checkbox input{
+    width: 80px;
     
 }
