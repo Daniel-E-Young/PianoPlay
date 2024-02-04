@@ -65,5 +65,8 @@ header .column span{
 }
 .keys-checkbox input:checked::before{
     left: 45px;
+    background: #fff;
+}
+.piano-keys{
     
 }
