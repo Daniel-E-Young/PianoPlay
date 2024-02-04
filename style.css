@@ -64,5 +64,6 @@ header .column span{
     transition: all 0.3s ease;
 }
 .keys-checkbox input:checked::before{
+    left: 45px;
     
 }
