@@ -68,5 +68,6 @@ header .column span{
     background: #fff;
 }
 .piano-keys{
+    display: flex;
     
 }
