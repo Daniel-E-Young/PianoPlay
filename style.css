@@ -75,6 +75,8 @@ header .column span{
     cursor: pointer;
     user-select: none;
     list-style: none;
+    color: #b68d83;
+    position: relative;
     
 }
 
