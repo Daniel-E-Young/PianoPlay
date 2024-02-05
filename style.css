@@ -74,6 +74,7 @@ header .column span{
 .piano-keys .key{
     cursor: pointer;
     user-select: none;
+    list-style: none;
     
 }
 
