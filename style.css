@@ -72,6 +72,8 @@ header .column span{
     margin-top: 40px;
 }
 .piano-keys .key{
+    cursor: pointer;
+    user-select: none;
     
 }
 
