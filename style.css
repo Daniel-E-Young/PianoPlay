@@ -84,7 +84,7 @@ header .column span{
     height: 140px;
     z-index: 2;
     margin: 0 -22px 0 -22px;
-    background: linear-gradient();
+    background: linear-gradient(#333 96%, #000 4%);
 
 }
 
