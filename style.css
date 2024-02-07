@@ -87,7 +87,7 @@ header .column span{
     background: linear-gradient(#333 96%, #000 4%);
 }
 .piano-keys .black.active{
-    
+    box-shadow: :inset;
 }
 
 
