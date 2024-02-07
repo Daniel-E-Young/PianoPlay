@@ -85,7 +85,9 @@ header .column span{
     z-index: 2;
     margin: 0 -22px 0 -22px;
     background: linear-gradient(#333 96%, #000 4%);
-
+}
+.piano-keys .black.active{
+    
 }
 
 
