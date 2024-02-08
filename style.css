@@ -99,6 +99,9 @@ header .column span{
 }
 .piano-keys .keys.hide span{
     display: none;
+}
+.piano-keys .black span{
+    bottom: 13px;
     
 }
 
