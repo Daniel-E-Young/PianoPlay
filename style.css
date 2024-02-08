@@ -98,6 +98,7 @@ header .column span{
     text-align: center;
 }
 .piano-keys .keys.hide span{
+    display: none;
     
 }
 
