@@ -124,6 +124,9 @@ header .column span{
     .piano-keys key:where(:nth-child(9), :nth-childe(10)){
         display: none;
     }
+    .piano-keys .black{
+        
+    }
 }
 
 
