@@ -102,7 +102,9 @@ header .column span{
 }
 .piano-keys .black span{
     bottom: 13px;
-    
+    color: #888888;
 }
+
+
 
 
