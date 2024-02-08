@@ -121,7 +121,9 @@ header .column span{
     .piano-keys{
         margin-top: 20px;
     }
-    
+    .piano-keys key:where(:nth-child(9), :nth-childe(10)){
+        display: none;
+    }
 }
 
 
