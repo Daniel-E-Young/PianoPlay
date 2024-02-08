@@ -107,8 +107,15 @@ header .column span{
 
 @media screen and (max-width: 815px){
     .wrapper{
-        
+        padding: 25px;
     }
+    header{
+        flex-direction: column;
+    }
+    header :where(h2, .column){
+        margin-bottom: 13px;
+    }
+    
 }
 
 
