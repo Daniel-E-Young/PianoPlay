@@ -105,6 +105,10 @@ header .column span{
     color: #888888;
 }
 
-
+@media screen and (max-width: 815px){
+    .wrapper{
+        
+    }
+}
 
 
