@@ -115,6 +115,12 @@ header .column span{
     header :where(h2, .column){
         margin-bottom: 13px;
     }
+    .volume-slider input{
+        max-width: 100px;
+    }
+    .piano-keys{
+        margin-top: 20px;
+    }
     
 }
 
