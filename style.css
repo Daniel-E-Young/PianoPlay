@@ -130,7 +130,8 @@ header .column span{
         margin: 0 -20px 0 -20px;
     }
     .piano-keys .white{
-        
+        height: 180px;
+        width: 60px;
     }
 }
 
