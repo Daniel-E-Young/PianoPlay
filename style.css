@@ -125,7 +125,8 @@ header .column span{
         display: none;
     }
     .piano-keys .black{
-        
+        height: 100px;
+        width: 40px;
     }
 }
 
