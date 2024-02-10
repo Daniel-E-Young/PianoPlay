@@ -140,11 +140,11 @@ header .column span{
     .piano-keys .key:nth-child(14),    
     .piano-keys .key:nth-child(15),    
     .piano-keys .key:nth-child(16),
-    .piano-keys .key:nth-child(17),{
+    .piano-keys .key:nth-child(17){
         display: none;
     }
     .piano-keys .white{
-        width: ;
+        width: 50px;
     }    
 }
 
