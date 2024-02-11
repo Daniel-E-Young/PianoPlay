@@ -1,1 +1,1 @@
-const keyboardKeys = document.query
+const keyboardKeys = document.querySelectorAll(".piano-keys .key")
