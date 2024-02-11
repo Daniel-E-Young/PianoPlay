@@ -1,1 +1,2 @@
-const keyboardKeys = document.querySelectorAll(".piano-keys .key")
+const keyboardKeys = document.querySelectorAll(".piano-keys .key"),
+volumeSlider = document.querySelector
