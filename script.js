@@ -10,5 +10,6 @@ const playTune = (key) => {
     audio.play(); // play audio
 
 
-    const clickedKey = document.querySelector('[data-key="${key}"]') // getting c
+    const clickedKey = document.querySelector('[data-key="${key}"]') // getting clicked key elements
+    clickedKey.classList.add("active"); //add advite class to the clicked jey element
 }
