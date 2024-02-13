@@ -12,5 +12,6 @@ const playTune = (key) => {
     const clickedKey = document.querySelector('[data-key="${key}"]') // getting clicked key elements
     clickedKey.classList.add("active"); //add advite class to the clicked key element
     setTimeout(() =>{ // removing active class after 150ms from the clicked key element
-        clickedKey.classList.remove})
+        clickedKey.classList.remove("active");
+    },150);
 }
