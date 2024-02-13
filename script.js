@@ -9,8 +9,8 @@ const playTune = (key) => {
     audio.src = 'tunes/${key}.wav' // passing audio src based on keys pressed
     audio.play(); // play audio
 
-
     const clickedKey = document.querySelector('[data-key="${key}"]') // getting clicked key elements
     clickedKey.classList.add("active"); //add advite class to the clicked key element
-    setTimeout(() =>)
+    setTimeout(() =>{ // removing active class after 150ms from the clicked key element
+        clickedKey.classList.remove})
 }
