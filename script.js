@@ -14,4 +14,8 @@ const playTune = (key) => {
     setTimeout(() =>{ // removing active class after 150ms from the clicked key element
         clickedKey.classList.remove("active");
     },150);
-}
+};
+
+keyboardKeys.forEach(key => {
+    
+})
