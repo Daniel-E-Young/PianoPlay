@@ -19,4 +19,5 @@ const playTune = (key) => {
 keyboardKeys.forEach(key => {
     allKeys.push(key.dataset.key); 
     key.addEventListener("click",() => playTune(key.dataset.key));
+    consoleKey
 });
