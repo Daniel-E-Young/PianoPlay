@@ -22,4 +22,6 @@ keyboardKeys.forEach(key => {
     console.log(key.dataset.key)
 });
 
-
+const handleVolume = (e) => {
+    
+}
