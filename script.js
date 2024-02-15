@@ -26,6 +26,6 @@ const handleVolume = (e) => {
     audio.volume = e.target.value;
 }
 
-const handleVolume = (e) => {
-    
+const showHideKeys = () => {
+
 }
