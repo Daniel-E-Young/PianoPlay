@@ -23,5 +23,7 @@ keyboardKeys.forEach(key => {
 });
 
 const handleVolume = (e) => {
-    audio.volume = e.target.value
+    audio.volume = e.target.value;
 }
+
+
