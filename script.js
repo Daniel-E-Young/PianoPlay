@@ -26,4 +26,6 @@ const handleVolume = (e) => {
     audio.volume = e.target.value;
 }
 
-const handleVolume = 
+const handleVolume = (e) => {
+    
+}
