@@ -23,5 +23,5 @@ keyboardKeys.forEach(key => {
 });
 
 const handleVolume = (e) => {
-    audio.volume
+    audio.volume = e.target.value
 }
