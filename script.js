@@ -27,6 +27,6 @@ const handleVolume = (e) => {
 }
 
 const showHideKeys = () => {
-    keyboardKeys.forEach( key => key.classList)
+    keyboardKeys.forEach( key => key.classList.toggle("hide"))
 
 }
