@@ -27,5 +27,6 @@ const handleVolume = (e) => {
 }
 
 const showHideKeys = () => {
+    keyboardKeys.forEach
 
 }
