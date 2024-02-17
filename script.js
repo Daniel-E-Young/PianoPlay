@@ -36,5 +36,5 @@ const pressedKey = (e) => {
 
 keysCheckbox.addEventListener("click", showHideKeys);
 volumeSlider.addEventListener("input", handleVolume);
-
+document.addEventListener("keydown", )
 
