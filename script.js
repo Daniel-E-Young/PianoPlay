@@ -34,4 +34,4 @@ const pressedKey = (e) => {
     if(allKeys.includes(e.keys)) playTune(e.key);
 };
 
-
+keysCheckbox.addEventListener
