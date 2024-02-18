@@ -18,18 +18,16 @@ const  playTune = (key) => {
 };
 
 keyboardKeys.forEach(key => {
-    allKeys.push(key.dataset.key); // addig data-key value to the allKeys array
-    // calling playTune function with passing data-key value as an argument
+    allKeys.push(key.dataset.key); 
     key.addEventListener("click", () => playTune(key.dataset.key));
     console.log(key.dataset.key)
 });
 
 const handleVolume = (e) => {
-    audio.volume = e.target.value; // passing the range slider value as an audio volume
+    audio.volume = e.target.value; 
 }
 
 const showHideKeys = () => {
-    //toggle hides class from each key on the checkbox click
     keyboardKeys.forEach( key => key.classList.toggle("hide"))
 }
 
