@@ -3,16 +3,16 @@ volumeSlider = document.querySelector(".volume-slider input"),
 keysCheckbox = document.querySelector(".keys-checkbox input");
 
 let allKeys = [],
-audio = new Audio("tunes/a.wav"); // by default, audio src will be the "a" tune
+audio = new Audio("tunes/a.wav");
 
 const  playTune = (key) => {
     audio.src = `tunes/${key}.wav` // passing audio src based on keys pressed
-    audio.play(); // play audio
+    audio.play(); 
     
 
     const clickedKey = document.querySelector(`[data-key="${key}"]`) // getting clicked key elements
-    clickedKey.classList.add("active"); //add active class to the clicked key element
-    setTimeout(() => { // removing active class after 150 ms from the clicked key element
+    clickedKey.classList.add("active"); 
+    setTimeout(() => { 
         clickedKey.classList.remove("active");
     }, 150);
 };
