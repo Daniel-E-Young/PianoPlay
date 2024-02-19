@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+    font-family:'Poppins', sans-serif ;
 }
 body{
     display: flex;
@@ -16,7 +16,7 @@ body{
 .wrapper{
     width: 780px;
     border-radius: 20px;
-    padding: 0 10px;
+    padding: 35px 40px;
     background: #e0da87;
 }
 .wrapper header{
@@ -37,7 +37,7 @@ header .column span{
     margin-right: 15px;
     font-size: 1.19rem;
 }
-.volume-slider span{
+.volume-slider input{
     outline: none;
     accent-color: #fff;
 }
@@ -56,7 +56,7 @@ header .column span{
     height: 30px;
     width: 30px;
     top: 50%;
-    left: 5%;
+    left: 5px;
     border-radius: inherit;
     position: absolute;
     background: #8c8c8c;
@@ -70,6 +70,7 @@ header .column span{
 .piano-keys{
     display: flex;
     margin-top: 40px;
+
 }
 .piano-keys .key{
     cursor: pointer;
@@ -84,11 +85,25 @@ header .column span{
     height: 140px;
     z-index: 2;
     margin: 0 -22px 0 -22px;
-    background: linear-gradient(#333 96%, #000 4%);
+    border-radius: 0 0 5px 5px;
+    background:linear-gradient(#333 96%, #000 4%);
 }
 .piano-keys .black.active{
     box-shadow: inset -5px 5px 10px rgba(255, 255, 255, 0.1);
-    background: linear-gradient(to bottom,#000 , #434343);
+    background:linear-gradient(to bottom,#000 , #434343);
+    
+}
+.piano-keys .white{
+    width: 70px;
+    height: 230px;
+    border-radius: 8px;
+    border: 1px solid #000;
+    background:linear-gradient(#fff 96%, #eee 4%);
+}
+.piano-keys .white.active{
+    box-shadow: inset -5px 5px 20px rgba(0, 0, 0, 0.2);
+    background:linear-gradient(to bottom,#fff 0%, #eee 100%);
+    
 }
 .piano-keys span{
     position: absolute;
@@ -97,8 +112,9 @@ header .column span{
     font-size: 1.13rem;
     text-align: center;
 }
-.piano-keys .keys.hide span{
+.piano-keys .key.hide span{
     display: none;
+
 }
 .piano-keys .black span{
     bottom: 13px;
@@ -121,7 +137,7 @@ header .column span{
     .piano-keys{
         margin-top: 20px;
     }
-    .piano-keys key:where(:nth-child(9), :nth-childe(10)){
+    .piano-keys .key:where(:nth-child(9), :nth-childe(10)){
         display: none;
     }
     .piano-keys .black{
@@ -135,17 +151,15 @@ header .column span{
     }
 }
 
-@media screen and (max-width: 615px) {
-    .piano-keys .key:nth-child(13),    
-    .piano-keys .key:nth-child(14),    
-    .piano-keys .key:nth-child(15),    
+@media screen and (max-width: 615px){
+    .piano-keys .key:nth-child(13),
+    .piano-keys .key:nth-child(14),
+    .piano-keys .key:nth-child(15),
     .piano-keys .key:nth-child(16),
     .piano-keys .key:nth-child(17){
         display: none;
     }
     .piano-keys .white{
         width: 50px;
-    }    
+    }
 }
-
-
