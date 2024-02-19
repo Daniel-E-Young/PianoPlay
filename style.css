@@ -15,7 +15,7 @@ body{
 }
 .wrapper{
     width: 780px;
-    border-radius: 2000px;
+    border-radius: 20px;
     padding: 35px 40px;
     background: #e0da87;
 }
@@ -69,7 +69,7 @@ header .column span{
 }
 .piano-keys{
     display: flex;
-    margin-top: 40px;
+    margin-top: 400px;
 
 }
 .piano-keys .key{
